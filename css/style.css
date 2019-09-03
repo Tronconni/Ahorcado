@@ -1,0 +1,108 @@
+  * {
+      margin: 1%;
+      padding: 0;
+      box-sizing: border-box;
+  }
+  
+  body {
+    background-size: 100%;
+  }
+
+  #main-container {
+      font-size: 18px;
+      width: 60%;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  
+  #header {
+      background: rgb(8, 182, 167);
+      color: black;
+      text-align: center;
+      font-size: 400%;
+      border: 5px solid black;
+      border-radius: 50px;
+      opacity: 0.7;
+  }
+  
+  #principal {
+      width: 100%;
+      padding: 0.5em;
+      text-align: center;
+      margin-top: 5%;
+  }
+  
+  #secundario {
+      width: 100%;
+      padding: 0.5em;
+      text-align: center;
+      font-size: 150%;
+  }
+  
+  #terciario {
+      width: 100%;
+      padding: 0.5em;
+      text-align: center;
+      margin-top: 2%;
+      font-size: 200%;
+  }
+
+  #cuarto {
+      padding: 0.5em;
+      margin-top: 3%;
+      font-size: 120%;
+      font-weight: bold;
+      opacity: 0.8;
+  }
+
+  #boton-iniciar {
+      text-decoration: none;
+      padding: 10px;
+      font-weight: 600;
+      font-size: 500%;
+      color: #ffffff;
+      background-color: rgb(8, 182, 167);
+      border-radius: 10px;
+      border: 3px solid black;
+  }
+
+  #boton-iniciar:hover {
+      background:#fff;
+      color: rgb(8, 182, 167);
+  }
+
+  #boton-chequear, #generar-palabra  {
+      font-size: 80%;
+  }
+
+  #input-letra {
+    width: 20%;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #def;
+    font-size: 80%;
+    text-align: center
+  }
+
+  #inputs {
+      margin-top: 5%;
+  }
+
+  #footer {
+      margin-top: 1%;
+      font-size: 120%;
+      font-weight: bold;
+      clear: both;
+      opacity: 0.8;
+  }
+  
+  img {
+      display: block; 
+      margin: 0 auto;
+      max-width: 100%;
+      width: 50%;
+  }
+
+  #texto-letra {
+      font-weight: bold;
+  }

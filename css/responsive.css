@@ -1,0 +1,29 @@
+@media (max-width: 865px) {
+    #header {
+        font-size: 200%;
+    }
+}
+
+@media (max-width: 525px) {
+    #header {
+          font-size: 100%;
+    }
+}
+
+@media (max-width: 865px) {
+    #boton-iniciar {
+        font-size: 300%;
+    }
+}
+
+@media (max-width: 525px) {
+    #boton-iniciar {
+          font-size: 100%;
+    }
+}
+
+@media (max-width: 490px) {
+    #terciario {
+        font-size: 100%;
+    }
+}

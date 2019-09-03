@@ -1,0 +1,3 @@
+const listado = ['Tranquilo','Combinación','Cochecito','Televisión','Facultad','Estrella','Comunista','Odio','Sauna','Muertos','Auto','Capricho',
+    'Conocido','Médico','Rayo láser','Porcentaje','Amiga','Recta','Ensalada','Pulpo','Alentar','Desfilar','Oxígeno','Evadir','Envoltura','Atractivo','Establo','Torcedura','Indicio','Almendra',
+    'Países','Luz','Sartén','Tarántula','Diligencia','Piel','Inflamar','Rodar','Secuestrar','Ciervo'];

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>TRONCONNI®</title>
+</head>
+<body background= "img/00d1.jpg">
+    <div id="main-container">
+        <div id="header">TRONCONNI®</div>
+        <div id="principal">
+            <button id="boton-iniciar">Iniciar juego</button>
+        </div>
+        <div id="imagen">
+            <img src="img/juego-ahorcado.jpg" alt="ahorcado">
+        </div>
+        <div id="secundario">
+            <div id="texto-letra">Ingrese la letra que desea buscar:</div>
+            <div id="inputs">
+                <input type="text" id="input-letra" placeholder="Ingrese una letra" required>
+                <button id="boton-chequear">Chequear</button>
+                <button id="generar-palabra">Generar nueva palabra</button>
+            </div>
+        </div>
+        <div id="terciario">
+            <div id="contexto-palabra"></div>
+        </div>
+        <div id="cuarto">
+            <p>Letras ingresadas erróneas: <span id="span-letras-ingresadas"></span></p> 
+        </div>
+        <div id="footer">
+            <p>Cantidad de letras de la palabra: <span id="span-cantidad"></span></p>
+            <p>Cantidad de turnos permitidos: <span id="span-turnos"></span></p>
+        </div>
+    </div>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/palabras.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
